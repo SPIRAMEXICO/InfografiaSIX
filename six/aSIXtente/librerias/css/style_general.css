@@ -1,0 +1,435 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 97%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+
+/* Estilo de los elementos generales */
+.posAbsolute {
+  position: absolute;
+}
+.element {
+  position: absolute;
+}
+
+.centradoH {
+  margin: auto;
+}
+.centradoV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.espacio1 {
+  width: 100vw;
+  height: calc(100vw * 940 / 1920);
+}
+.espacioFull {
+  width: 100vw;
+  height: 100vh;
+}
+.contentIMG {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.contentIMG_cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contentIMG_contain {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.lineaRoja {
+  background: #cf0109;
+  height: 2px;
+  width: 30vw;
+  -ms-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 100vw;
+}
+.con_sombra {
+  box-shadow: 0px 0px 5px #000;
+}
+.recorte {
+  overflow: hidden;
+}
+.circulo_centrado {
+  border-radius: 50%;
+  -ms-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+.texto_derecha {
+  text-align: right;
+}
+.texto_izquierda {
+  text-align: left;
+}
+.texto_centrado {
+  text-align: center;
+}
+#indicadores_box1 {
+  top: 100vh;
+}
+#indicadores_box2 {
+  top: 100vh;
+  left: 100vw;
+}
+#indicadores_box3 {
+  top: 200vh;
+  left: 100vw;
+}
+.indicadores_text {
+  font-family: "Lato", sans-serif;
+  color: #1d1d1d;
+  font-size: 1.2vw;
+}
+.indicadores_numero {
+  font-size: 3vw;
+  font-family: "Acme";
+  color: #cf0109;
+}
+.impactados_text {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 2vw;
+}
+.impactados_text {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 2vw;
+}
+.impactados_numero {
+  font-size: 6vw;
+  font-family: "Acme";
+  color: #fff;
+}
+.page {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.page > div {
+  position: absolute;
+}
+
+#portrait_message {
+  position: fixed;
+  display: none;
+  z-index: 10;
+}
+
+#contenedorMenu {
+  top: 0vw;
+  bottom: 0vw;
+  position: fixed;
+  left: 2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#menuNav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 30vw;
+  width: calc(29vw * 0.1);
+  background-color: hsla(0, 0%, 0%, 0.5);
+  -moz-border-radius: 1.5vw;
+  -webkit-border-radius: 1.5vw;
+  border-radius: 1.5vw;
+  justify-content: space-evenly;
+}
+.btnsNav {
+  height: 1vw;
+  width: 30vw;
+  background-color: transparent;
+  margin-left: 1vw;
+}
+
+.btnTag {
+  font-family: "Lato";
+  width: 40vw;
+  font-size: 1vw;
+  margin-left: 2.5vw;
+  position: absolute;
+  opacity: 0;
+  text-shadow: 1px 1px 1px rgba(87, 87, 87, 1);
+}
+.navIndicador {
+  z-index: 10;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 1vw;
+  width: 1vw;
+  background-color: #ffffff;
+  border: 0px solid #fff;
+  position: absolute;
+}
+.navIndicador:hover {
+  box-shadow: 0px 0px 5px #000;
+  cursor: pointer;
+}
+#btn1:hover {
+  background-color: #D94E40;
+}
+#btn2:hover {
+  background-color: #D94E40;
+}
+#btn3:hover {
+  background-color: #D94E40;
+}
+#btn4:hover {
+  background-color: #D94E40;
+}
+#btn5:hover {
+  background-color: #D94E40;
+}
+#btn6:hover {
+  background-color: #D94E40;
+}
+#btn7:hover {
+  background-color: #D94E40;
+}
+#btn8:hover {
+  background-color: #D94E40;
+}
+#btn9:hover {
+  background-color: #D94E40;
+}
+#btn10:hover {
+  background-color: #D94E40;
+}
+#btn11:hover {
+  background-color: #D94E40;
+}
+
+#btn1Tag {
+  color: #D94E40;
+}
+#btn2Tag {
+  color: #D94E40;
+}
+#btn3Tag {
+  color: #D94E40;
+}
+#btn4Tag {
+  color: #D94E40;
+}
+#btn5Tag {
+  color: #D94E40;
+}
+#btn6Tag {
+  color: #D94E40;
+}
+#btn7Tag {
+  color: #D94E40;
+}
+#btn8Tag {
+  color: #D94E40;
+}
+#btn9Tag {
+  color: #D94E40;
+}
+#btn10Tag {
+  color: #D94E40;
+}
+#btn11Tag {
+  color: #D94E40;
+}
+
+
+
+
+.navEdge{
+  margin-bottom: 1.6vw !important;
+}
+.menuNavEdge{
+  padding-top: 1vw !important;
+}
+.indice-text{
+    transform: rotate(271deg);
+    top: 14vw;
+    position: absolute;
+    font-size: 1vw;
+    font-family: Lato;
+    left: -2vw;
+    color: #D94E40;
+}
+
+@media screen and (orientation: portrait) {
+  #portrait_message {
+    display: block;
+  }
+}
+
+@media only screen and (orientation: landscape)and (max-width: 767px){
+  #menuNav {
+    height: 24vw !important;
+  }
+  .btnsNav {
+    height: 1.2vw;
+  }
+  .btnTag {
+    font-size: 2vw;
+  }
+}

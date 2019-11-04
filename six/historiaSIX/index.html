@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>HISTORIA SIX</title>
+    <link rel="shortcut icon" href="librerias/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="librerias/css/style_general.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Lato|Acme"
+      rel="stylesheet"
+    />
+
+    <script src="librerias/js/jquery-1.12.4.min.js"></script>
+    <script src="librerias/js/TweenMax.min.js"></script>
+    <script src="librerias/js/detectmobilebrowser.js"></script>
+    <script src="librerias/js/ScrollMagic.min.js"></script>
+    <script src="librerias/js/plugins/jquery.ScrollMagic.min.js"></script>
+    <script src="librerias/js/plugins/animation.gsap.min.js"></script>
+    <script src="librerias/js/plugins/debug.addIndicators.min.js"></script>
+    <script src="librerias/js/sceneManager.js"></script>
+  </head>
+  <body>
+    <div id="portrait_message" class="espacioFull">
+        <div id="portada_fondo" class="contentIMG contentIMG_cover element" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:100vh; background-image: url("librerias/images/portrait/background.png");' ></div>        
+        <div id="portada_fondo" class="contentIMG contentIMG_contain element" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:100vh; background-image: url("librerias/images/portrait/elementos.png");' ></div>        
+    
+      </div> 
+      
+      
+    <div id="content_scroll">
+        <!--................................... PORTADA ......................................-->
+        <!--*********************************** PANTALLA 1************************************-->
+        <div id="portada" class="espacio1 centradoH centradoV page">
+            <div id="portada_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/background.png");' ></div>
+            <div id="portada_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img01.png");' ></div>
+            <div id="portada_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img02.png");' ></div>
+            <div id="portada_img3" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img03.png");' ></div>
+            <div id="portada_img4" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img04.png");' ></div>
+            <div id="portada_img5" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img05.png");' ></div>
+            <div id="portada_img6" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/01intro/page1/img06.png");' ></div>
+        </div>
+        <!--................................... HEINEKEN .....................................-->
+        <!--*********************************** PANTALLA 1************************************-->
+        <div id="heineken1" class="espacio1 centradoH centradoV page" >                
+            <div id="heineken1_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/02histoheine/page1/bg.png");' ></div>
+            <div id="heineken1_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/02histoheine/page1/img01.png");' ></div>
+            <div id="heineken1_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/02histoheine/page1/img02.png");' ></div>  
+        </div>
+        
+        
+        <!--*********************************** PANTALLA 2************************************-->
+        <div id="heineken2" class="espacio1 centradoH centradoV page">
+            <div id="heineken2_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/02histoheine/page2/bg.png");' ></div>
+            <div id="heineken2_img1" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page2/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken2_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page2/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken2_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page2/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 3************************************-->
+        <div id="heineken3" class="espacio1 centradoH centradoV page" >
+            <div id="heineken3_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page3/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_img5" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken3_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page3/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 4************************************-->
+        <div id="heineken4" class="espacio1 centradoH centradoV page" >
+            <div id="heineken4_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page4/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_img5" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken4_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page4/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 5************************************-->
+        <div id="heineken5" class="espacio1 centradoH centradoV page" >              
+            <div id="heineken5_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page5/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken5_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page5/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken5_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page5/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken5_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page5/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken5_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page5/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken5_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page5/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 6************************************-->
+        <div id="heineken6" class="espacio1 centradoH centradoV page" >
+            <div id="heineken6_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page6/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_img5" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken6_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page6/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 7************************************-->
+        <div id="heineken7" class="espacio1 centradoH centradoV page recorte" >
+            <div id="heineken7_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page7/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_img5" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken7_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page7/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 8************************************-->
+        <div id="heineken8" class="espacio1 centradoH centradoV page recorte" >
+           <div id="heineken8_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page8/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken8_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page8/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken8_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page8/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken8_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page8/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken8_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page8/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken8_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page8/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 9************************************-->
+        <div id="heineken9" class="espacio1 centradoH centradoV page" >
+            <div id="heineken9_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/02histoheine/page9/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_img5" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken9_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page9/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>  
+        </div> 
+        <!--*********************************** PANTALLA 10************************************-->
+        <div id="heineken10" class="espacio1 centradoH centradoV page recorte" >
+            <div id="heineken10_fondo" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken10_timeBar" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken10_img1" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken10_img2" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken10_img4" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="heineken10_img3" class="contentIMG" style='background-image: url("librerias/images/02histoheine/page10/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div> 
+
+        <!--...................................   SIX  .......................................-->
+        <!--*********************************** PANTALLA 1************************************-->  
+        <div id="six1" class="espacio1 centradoH centradoV page" >                
+            <div id="six1_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/03histosix/page1/bg.png");' ></div>
+            <div id="six1_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/03histosix/page1/img01.png");' ></div>
+            <div id="six_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/03histosix/page1/img02.png");' ></div>  
+        </div>
+        <!--*********************************** PANTALLA 2************************************-->
+        <div id="six2" class="espacio1 centradoH centradoV page" >
+            <div id="six2_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page2/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six2_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page2/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six2_img2" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page2/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six2_img3" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page2/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 3************************************-->
+        <div id="six3" class="espacio1 centradoH centradoV page" >
+            <div id="six3_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six3_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six3_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six3_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six3_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six3_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page3/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div> 
+        <!--*********************************** PANTALLA 4************************************-->
+        <div id="six4" class="espacio1 centradoH centradoV page" >
+            <div id="six4_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page4/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page4/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page4/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img2" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img3" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img4" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img5" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img6" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img7" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six4_img8" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page4/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 5************************************-->
+        <div id="six5" class="espacio1 centradoH centradoV page" >
+           <div id="six5_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page5/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six5_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page5/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 6************************************-->
+        <div id="six6" class="espacio1 centradoH centradoV page" >
+            <div id="six6_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six6_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six6_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page6/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six6_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six6_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="six6_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six6_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page6/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 7************************************-->
+        <div id="six7" class="espacio1 centradoH centradoV page" >
+            <div id="six7_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six7_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page7/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 8************************************-->
+        <div id="six8" class="espacio1 centradoH centradoV page" >
+            <div id="six8_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page8/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img6" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img7" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img8" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img9" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img10" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img11" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six8_img12" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page8/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 9************************************-->
+        <div id="six9" class="espacio1 centradoH centradoV page" >
+            <div id="six9_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six9_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page9/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 10************************************-->
+        <div id="six10" class="espacio1 centradoH centradoV page" >
+            <div id="six10_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img14.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page10/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img6" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img7" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img8" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img9" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img10" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img11" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img12" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six10_img13" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page10/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 11************************************-->
+        <div id="six11" class="espacio1 centradoH centradoV page" >
+            <div id="six11_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six11_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page11/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 12************************************-->
+        <div id="six12" class="espacio1 centradoH centradoV page" >
+            <div id="six12_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page12/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img6" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img7" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img8" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img9" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img10" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six12_img11" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page12/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        
+        <!--*********************************** PANTALLA 13************************************-->
+        <div id="six13" class="espacio1 centradoH centradoV page" >
+            <div id="six13_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six13_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page13/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        
+        
+        
+        <!--*********************************** PANTALLA 14************************************-->
+        <div id="six14" class="espacio1 centradoH centradoV page" >
+            <div id="six14_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img14.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img4" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img5" class="contentIMG" style='background-image: url("librerias/images/03histosix/page14/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img6" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img7" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img8" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img9" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img10" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img11" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img12" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six14_img13" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/03histosix/page14/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 15************************************-->
+        <div id="six15" class="espacio1 centradoH centradoV page" >
+            <div id="six15_fondo" class="contentIMG" style='background-image: url("librerias/images/03histosix/page15/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six15_timeBar" class="contentIMG" style='background-image: url("librerias/images/03histosix/page15/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six15_img1" class="contentIMG" style='background-image: url("librerias/images/03histosix/page15/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six15_img2" class="contentIMG" style='background-image: url("librerias/images/03histosix/page15/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="six15_img3" class="contentIMG" style='background-image: url("librerias/images/03histosix/page15/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        
+        <!--................................... RETAIL .......................................-->
+        <!--*********************************** PANTALLA 1************************************-->
+        <div id="retail1" class="espacio1 centradoH centradoV page" >
+            <div id="retail1_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page1/bg.png");' ></div>
+            <div id="retail1_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page1/img01.png");' ></div>
+            <div id="retail1_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page1/img02.png");' ></div>  
+        </div>
+        <!--*********************************** PANTALLA 2************************************-->
+        <div id="retail2" class="espacio1 centradoH centradoV page" >
+            <div id="retail2_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page2/bg.png");' ></div>
+            <div id="retail2_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page2/img01.png");' ></div>
+            <div id="retail2_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page2/img02.png");' ></div>  
+            <div id="retail2_img3" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page2/img03.png");' ></div>  
+        </div>
+        <!--*********************************** PANTALLA 3************************************-->
+        <div id="retail3" class="espacio1 centradoH centradoV page" >
+            <div id="retail3_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page3/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img6" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img7" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail3_img8" class="contentIMG" style='background-image: url("librerias/images/04historetail/page3/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 4************************************-->
+        <div id="retail4" class="espacio1 centradoH centradoV page" >
+           <div id="retail4_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img1" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img6" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail4_img7" class="contentIMG" style='background-image: url("librerias/images/04historetail/page4/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 5************************************-->
+        <div id="retail5" class="espacio1 centradoH centradoV page" >
+            <div id="retail5_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page5/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail5_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page5/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 6************************************-->
+        <div id="retail6" class="espacio1 centradoH centradoV page" >
+            <div id="retail6_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail6_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail6_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page6/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail6_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail6_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail6_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail6_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page6/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 7************************************-->
+        <div id="retail7" class="espacio1 centradoH centradoV page" >
+            <div id="retail7_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail7_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail7_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page7/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail7_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail7_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>           
+            <div id="retail7_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail7_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page7/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 8************************************-->
+        <div id="retail8" class="espacio1 centradoH centradoV page" >
+            <div id="retail8_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail8_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail8_img1" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail8_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail8_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail8_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page8/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div> 
+        </div>
+        <!--*********************************** PANTALLA 9************************************-->
+        <div id="retail9" class="espacio1 centradoH centradoV page" >
+            <div id="retail9_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail9_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail9_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page9/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail9_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail9_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail9_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail9_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page9/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 10************************************-->
+        <div id="retail10" class="espacio1 centradoH centradoV page" >
+            <div id="retail10_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail10_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail10_img1" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail10_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail10_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail10_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page10/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 11************************************-->
+        <div id="retail11" class="espacio1 centradoH centradoV page" >
+           <div id="retail11_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail11_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail11_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page11/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail11_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail11_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail11_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail11_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page11/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 12************************************-->
+        <div id="retail12" class="espacio1 centradoH centradoV page" >
+            <div id="retail12_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail12_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail12_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page12/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail12_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail12_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail12_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail12_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page12/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 13************************************-->
+        <div id="retail13" class="espacio1 centradoH centradoV page" >
+            <div id="retail13_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail13_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail13_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page13/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail13_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail13_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail13_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail13_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page13/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 14************************************-->
+        <div id="retail14" class="espacio1 centradoH centradoV page" >
+            <div id="retail14_fondo" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/bg.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail14_timeBar" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail14_img1" class="contentIMG equipo_bounce" style='background-image: url("librerias/images/04historetail/page14/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail14_img2" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail14_img3" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>            
+            <div id="retail14_img5" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="retail14_img4" class="contentIMG" style='background-image: url("librerias/images/04historetail/page14/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--****************************** PANTALLA CREDITOS************************************-->
+        <div id="creditos" class="espacio1 centradoH centradoV page" >
+             <div id="creditos_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/bg.png");' ></div>
+            <div id="creditos_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img01.png");' ></div>
+            <div id="creditos_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img02.png");' ></div>
+            <div id="creditos_img3" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img03.png");' ></div>
+            <div id="creditos_img4" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img04.png");' ></div>
+            <div id="creditos_img5" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img05.png");' ></div>
+            <div id="creditos_img6" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/04historetail/page15/img06.png");' ></div>
+        </div>
+    </div>
+    <div id="contenedorMenu">
+        <div id="menuNav">
+            <span class="indice-text">MENÚ</span>
+            <div class="btnsNav"><div id="btn1" class="navIndicador"></div><div id="btn1Tag" class="btnTag">Introducción</div></div>
+            <div class="btnsNav"><div id="btn2" class="navIndicador"></div><div id="btn2Tag" class="btnTag">Historia Heineken</div></div>
+            <div class="btnsNav"><div id="btn3" class="navIndicador"></div><div id="btn3Tag" class="btnTag">Historia Six</div></div>
+            <div class="btnsNav"><div id="btn4" class="navIndicador"></div><div id="btn4Tag" class="btnTag">Historia Retail</div></div>
+        </div>
+    </div>
+      
+    <div id="contenedorMenuHeineken">
+        <div id="menuNavHeineken">
+          <span class="indice-textHeineken">HEINEKEN</span>
+            <div class="btnsNavHeineken"><div id="btn1Heineken" class="navIndicadorHeineken"></div><div id="btn1TagHeineken" class="btnTagHeineken">1860</div></div>
+            <div class="btnsNavHeineken"><div id="btn2Heineken" class="navIndicadorHeineken"></div><div id="btn2TagHeineken" class="btnTagHeineken">1890</div></div>
+            <div class="btnsNavHeineken"><div id="btn3Heineken" class="navIndicadorHeineken"></div><div id="btn3TagHeineken" class="btnTagHeineken">1940</div></div>
+            <div class="btnsNavHeineken"><div id="btn4Heineken" class="navIndicadorHeineken"></div><div id="btn4TagHeineken" class="btnTagHeineken">1950</div></div>
+            <div class="btnsNavHeineken"><div id="btn5Heineken" class="navIndicadorHeineken"></div><div id="btn5TagHeineken" class="btnTagHeineken">1980</div></div>
+            <div class="btnsNavHeineken"><div id="btn6Heineken" class="navIndicadorHeineken"></div><div id="btn6TagHeineken" class="btnTagHeineken">1990</div></div>
+            <div class="btnsNavHeineken"><div id="btn7Heineken" class="navIndicadorHeineken"></div><div id="btn7TagHeineken" class="btnTagHeineken">2010</div></div>
+        </div>
+    </div>
+      
+    <div id="contenedorMenuSIX">
+        <div id="menuNavSIX">
+            <span class="indice-textSIX">SIX</span>
+            <div class="btnsNavSIX"><div id="btn1SIX" class="navIndicadorSIX"></div><div id="btn1TagSIX" class="btnTagSIX">1990</div></div>
+            <div class="btnsNavSIX"><div id="btn2SIX" class="navIndicadorSIX"></div><div id="btn2TagSIX" class="btnTagSIX">2004</div></div>
+            <div class="btnsNavSIX"><div id="btn3SIX" class="navIndicadorSIX"></div><div id="btn3TagSIX" class="btnTagSIX">2010</div></div>
+            <div class="btnsNavSIX"><div id="btn4SIX" class="navIndicadorSIX"></div><div id="btn4TagSIX" class="btnTagSIX">2014</div></div>
+            <div class="btnsNavSIX"><div id="btn5SIX" class="navIndicadorSIX"></div><div id="btn5TagSIX" class="btnTagSIX">2015</div></div>
+            <div class="btnsNavSIX"><div id="btn6SIX" class="navIndicadorSIX"></div><div id="btn6TagSIX" class="btnTagSIX">2016</div></div>
+            <div class="btnsNavSIX"><div id="btn7SIX" class="navIndicadorSIX"></div><div id="btn7TagSIX" class="btnTagSIX">2017</div></div>
+            <div class="btnsNavSIX"><div id="btn8SIX" class="navIndicadorSIX"></div><div id="btn8TagSIX" class="btnTagSIX">2019</div></div>
+        </div>
+    </div>
+      
+    <div id="contenedorMenuRetail">
+        <div id="menuNavRetail">
+            <span class="indice-textRetail">RETAIL</span>
+            <div class="btnsNavRetail"><div id="btn1Retail" class="navIndicadorRetail"></div><div id="btn1TagRetail" class="btnTagRetail">Comercio</div></div>
+            <div class="btnsNavRetail"><div id="btn2Retail" class="navIndicadorRetail"></div><div id="btn2TagRetail" class="btnTagRetail">1830</div></div>
+            <div class="btnsNavRetail"><div id="btn3Retail" class="navIndicadorRetail"></div><div id="btn3TagRetail" class="btnTagRetail">1860</div></div>
+            <div class="btnsNavRetail"><div id="btn4Retail" class="navIndicadorRetail"></div><div id="btn4TagRetail" class="btnTagRetail">1930</div></div>
+            <div class="btnsNavRetail"><div id="btn5Retail" class="navIndicadorRetail"></div><div id="btn5TagRetail" class="btnTagRetail">1940</div></div>
+            <div class="btnsNavRetail"><div id="btn6Retail" class="navIndicadorRetail"></div><div id="btn6TagRetail" class="btnTagRetail">1950</div></div>
+            <div class="btnsNavRetail"><div id="btn7Retail" class="navIndicadorRetail"></div><div id="btn7TagRetail" class="btnTagRetail">1970</div></div>
+            <div class="btnsNavRetail"><div id="btn8Retail" class="navIndicadorRetail"></div><div id="btn8TagRetail" class="btnTagRetail">1990</div></div>
+            <div class="btnsNavRetail"><div id="btn9Retail" class="navIndicadorRetail"></div><div id="btn9TagRetail" class="btnTagRetail">2010</div></div>
+        </div>
+    </div>
+      
+      
+      
+  </body>
+  <script src="librerias/js/_main.js"></script>
+</html>
